@@ -14,7 +14,7 @@ def add(request):
     res=val1+val2
     return render(request,'result.html',{"result":res}) 
 
-def index(request):
+def home(request):
 
     dest1=Destination()
     dest1.name="Mumbai"
@@ -30,7 +30,7 @@ def index(request):
 
     dest3=Destination()
     dest3.name="Bengaluru"
-    dest3.desc="Beautiful"
+    dest3.desc="Beautiful City"
     dest3.img="destination_3.jpg"
     dest3.price=800    
 
